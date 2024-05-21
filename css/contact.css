@@ -1,0 +1,8 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactContainer > *{
+    margin-top:3%;
+}
