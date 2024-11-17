@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import blogEntry from "../../components/ProjectEntry/BlogEntry";
+import BlogEntry from "../../components/ProjectEntry/BlogEntry";
 import "./Blogs.css"
 import { useEffect } from "react";
 
@@ -16,7 +16,7 @@ function Blogs() {
                 Click on a post to expand it.
             </div>
             <div className="blogListDiv">
-                <blogEntry
+                <BlogEntry
                     title="ExoDist"
                     shortDesc={
                     <div>
