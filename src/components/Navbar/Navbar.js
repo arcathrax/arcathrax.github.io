@@ -12,7 +12,9 @@ function Navbar() {
         <div className="mainNavbarDiv">
             {/* Title */}
             <Link to="/">
-                <h1>Ivan Pollak</h1>
+                <h1>
+                    Arcathrax
+                </h1>
             </Link>
 
             {/* Links */}

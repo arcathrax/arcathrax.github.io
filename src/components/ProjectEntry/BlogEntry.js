@@ -1,34 +1,38 @@
 import React, { useState } from "react";
 import "./BlogEntry.css";
 
-function BlogEntry({ title, description, shortDesc }) {
-    const [showDescription, setShowDescription] = useState(false);
+function BlogEntry({ category, title, date, content, shortDesc }) {
+    const [showContent, setShowContent] = useState(false);
 
     // Funktion zum Umschalten
-    const showFullDescription = (event) => {
+    const showFullContent = (event) => {
         event.stopPropagation();
-        setShowDescription(true);
+        setShowContent(true);
 
     };
 
-    const hideFullDescription = (event) => {
+    const hideFullContent = (event) => {
         event.stopPropagation();
-        setShowDescription(false);
+        setShowContent(false);
     };
 
     return (
-        <div className="ProjectEntryDiv" onClick={showFullDescription} style={showDescription ? { cursor: "auto" } : { cursor: "pointer" }}
+        <div className="ProjectEntryDiv" onClick={showFullContent} style={showContent? { cursor: "auto" } : { cursor: "pointer" }}
 >
-            <h2>{title}</h2>
+            <h2>{category} - {title}</h2>
             <div>
                 {shortDesc}
-                {showDescription && (
-                    <p className="description">{description}</p>
+                {showContent && (
+                    <p className="content">
+                        {content}
+                        {date}
+                    </p>
                 )}
             </div>
-            {showDescription && (
-                <div className="hideButton" onClick={hideFullDescription}>
-                    Hide description
+            {
+                showContent && (
+                <div className="hideButton" onClick={hideFullContent}>
+                    Hide content
                 </div>
             )}
         </div>
