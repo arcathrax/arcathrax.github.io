@@ -1,0 +1,25 @@
+.ProjectEntryDiv {
+    transition: all 0.25s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.ProjectEntryDiv:hover{
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px;
+}
+
+.hideButton{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+    .ProjectEntryDiv {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+}
