@@ -19,7 +19,7 @@ function Home()
                 src="https://open.spotify.com/embed/artist/0XnWXq7lfhJqrmwtmxUkcm?utm_source=generator&theme=0"
                 width="100%" height="352" frameBorder="0" allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy">
+                loading="lazy" title={"spotify iframe"}>
             </iframe>
 
             <h2>
@@ -34,7 +34,9 @@ function Home()
                 bookings
             </h2>
             <div className="contactLinks">
-                email at
+                <p>
+                    email at
+                </p>
                 <Link to={"mailto:arcathrax@proton.me"}>
                     arcathrax@proton.me
                 </Link>

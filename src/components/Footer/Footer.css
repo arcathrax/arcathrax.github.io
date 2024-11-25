@@ -1,4 +1,11 @@
 .footerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLinksDiv{
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -17,7 +24,7 @@
 }
 
 .footerLink{
-    margin: 1%;
+    margin: 5%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,3 +33,20 @@
     }
 }
 
+.footerInfoLinkDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerInfoLink{
+    margin: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .footerInfoLinkDiv{
+        flex-direction: column;
+    }
+}

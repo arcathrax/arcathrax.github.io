@@ -1,0 +1,22 @@
+.linktreeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linktreeLink{
+    display: flex;
+    flex-direction: row;
+    color: var(--TitleColor);
+    margin: 2% 0% 0% 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .linktreeLink{
+        display: flex;
+        flex-direction: row;
+        color: var(--TitleColor);
+        margin: 2% 0% 2% 0%;
+    }
+}

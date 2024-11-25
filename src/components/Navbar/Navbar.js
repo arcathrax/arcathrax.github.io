@@ -4,8 +4,6 @@ import "./Navbar.css";
 
 function Navbar() {
     const location = useLocation();
-
-    // Funktion, um die aktive Klasse zu setzen
     const getActiveClass = (path) => (location.pathname === path ? "navbarLink active" : "navbarLink");
 
     return (
