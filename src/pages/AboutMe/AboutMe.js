@@ -1,22 +1,19 @@
-import { Link } from "react-router-dom";
 import "./AboutMe.css";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 function AboutMe()
 {
     useEffect(() => {
-        document.title = "Arcathrax - About Me"
+        document.title = "Arcathrax - about me"
     }, [])
     return(
         <div>
             <h1>
-                About Me
+                about me
             </h1>
-
-            <div className="contactLinks">
-                <Link to={"mailto:arcathrax@proton.me"}>
-                Contact Me
-                </Link>
+            <div>
+                <img className={"memeFooterImg"} src={require("./under_construction.png")} alt={"under construction"} />
+                <img className={"memeFooterImg"} src={require("./under_construction_2.png")} alt={"under construction 2"} />
             </div>
         </div>
     )

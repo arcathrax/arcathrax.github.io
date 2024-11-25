@@ -20,19 +20,15 @@ function Navbar() {
             {/* Links */}
             <div className="linksNavbarDiv">
                 <Link className={getActiveClass("/")} to="/">
-                    Home
+                    home
                 </Link>
 
-                <Link className={"navbarLink"} to="https://arcathrax.gumroad.com/" target="_blank">
-                    Presets
-                </Link>
-
-                <Link className={getActiveClass("/blog-posts")} to="/blog-posts">
-                    Blog
+                <Link className={getActiveClass("/services")} to="/services">
+                    services
                 </Link>
 
                 <Link className={getActiveClass("/about-me")} to="/about-me">
-                    About Me
+                    about me
                 </Link>
             </div>
         </div>

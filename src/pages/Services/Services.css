@@ -1,11 +1,11 @@
-.blogListDiv{
+.serviceListDiv{
     display: flex;
     flex-direction: column;
 }
 
-.infoBarBlogs{
-    background-color: var(--titlecolor);
-    color: var(--color4);
+.infoBarService{
+    background-color: var(--BackgroundColor);
+    color: var(--HighlightColor);
     padding: 5px;
     border-radius: 10px;
     margin-bottom: 20px;

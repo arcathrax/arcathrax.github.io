@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./BlogEntry.css";
+import "./ServiceEntry.css";
 
-function BlogEntry({ category, title, shortDesc, description }) {
+function ServiceEntry({ category, title, shortDesc, description }) {
     const [showDescription, setShowDescription] = useState(false);
 
     const showFullDescription = (event) => {
@@ -20,7 +20,7 @@ function BlogEntry({ category, title, shortDesc, description }) {
             onClick={showFullDescription}
             style={showDescription ? { cursor: "auto" } : { cursor: "pointer" }}
         >
-            <h2> {category} - {title}</h2>
+            <h2>{title}</h2>
             <div>
                 {shortDesc}
                 {showDescription && <p className="description">{description}</p>}
@@ -34,4 +34,4 @@ function BlogEntry({ category, title, shortDesc, description }) {
     );
 }
 
-export default BlogEntry;
+export default ServiceEntry;

@@ -1,20 +1,20 @@
 import React, { useEffect } from "react";
-import BlogEntry from "../../components/BlogEntry/BlogEntry";
-import "./Blogs.css";
-import blogs from "../../blogs";
+import ServiceEntry from "../../components/ServiceEntry/ServiceEntry";
+import "./Services.css";
+import blogs from "../../Services";
 
-function Blogs() {
+function Services() {
     useEffect(() => {
-        document.title = "My Blog - Blog Posts";
+        document.title = "Arcathrax - Services";
     }, []);
 
     return (
         <div>
-            <h1>Blogs</h1>
-            <div className="infoBarBlogs">Click on a blog to expand it.</div>
-            <div className="BlogsListDiv">
+            <h1>services</h1>
+            <div className="infoBarService">Click on a service to expand it.</div>
+            <div className="ServicesListDiv">
                 {blogs.map((blog, index) => (
-                    <BlogEntry
+                    <ServiceEntry
                         key={index}
                         category={blog.category}
                         title={blog.title}
@@ -27,4 +27,4 @@ function Blogs() {
     );
 }
 
-export default Blogs;
+export default Services;
