@@ -9,13 +9,11 @@
 .footerIcon{
     max-height: 35px;
     filter: brightness(0) saturate(100%) invert(2%) sepia(3%) saturate(2358%) hue-rotate(22deg) brightness(97%) contrast(84%);
-    border-radius: 20px;
     transition: 0.15s;
 }
 
 .footerIcon:hover{
     filter: brightness(0) saturate(100%) invert(39%) sepia(70%) saturate(368%) hue-rotate(54deg) brightness(97%) contrast(93%);
-    box-shadow: 0px 0px 5px;
 }
 
 .footerLink{

@@ -23,8 +23,12 @@ function Navbar() {
                     Home
                 </Link>
 
+                <Link className={"navbarLink"} to="https://arcathrax.gumroad.com/" target="_blank">
+                    Presets
+                </Link>
+
                 <Link className={getActiveClass("/blog-posts")} to="/blog-posts">
-                    Blog Posts
+                    Blog
                 </Link>
 
                 <Link className={getActiveClass("/about-me")} to="/about-me">
