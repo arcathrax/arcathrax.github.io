@@ -9,7 +9,7 @@ function Imprint()
     return(
         <div>
             <h1>
-                Imprint
+                imprint
             </h1>
             <div>
                 <p>
