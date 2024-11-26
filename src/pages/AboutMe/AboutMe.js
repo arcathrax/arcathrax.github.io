@@ -12,8 +12,9 @@ function AboutMe()
                 about me
             </h1>
             <div>
-                <img className={"memeFooterImg"} src={require("./under_construction.png")} alt={"under construction"} />
-                <img className={"memeFooterImg"} src={require("./under_construction_2.png")} alt={"under construction 2"} />
+                <p>
+                    under construction
+                </p>
             </div>
         </div>
     )
