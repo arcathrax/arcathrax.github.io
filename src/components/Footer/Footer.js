@@ -29,14 +29,15 @@ function Footer()
                 <Link className="footerLink" to={"https://arcathrax.bandcamp.com/"} target="blank">
                     <img className="footerIcon" src={require("./Icons/bandcamp.png")} alt="Bandcamp Link" />
                 </Link>
+
+                <Link className="footerLink" to={"https://arcathrax.gumroad.com/"} target="blank">
+                    <img className="footerIcon" src={require("./Icons/gumroad.png")} alt="Gumroad Link" />
+                </Link>
             </div>
 
             <div className={"footerInfoLinkDiv"}>
                 <Link className={"footerInfoLink"} to="/imprint">
                     imprint
-                </Link>
-                <Link className={"footerInfoLink"} to="/linktree">
-                    linktree
                 </Link>
             </div>
         </div>
