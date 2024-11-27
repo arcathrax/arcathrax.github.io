@@ -1,21 +1,21 @@
 :root {
-  --BackgroundColor : #1A1A19;
+  --HighlightColor : #1A1A19;
   --TitleColor : #4f8131;
   --ContentColor : #80993c;
-  --HighlightColor : #F6FCDF;
+  --BackgroundColor : #F6FCDF;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100..900&family=Vesper+Libre:wght@400;500;700;900&display=swap');
 
 body {
-  background-color: var(--HighlightColor);
+  background-color: var(--BackgroundColor);
   color: var(--TitleColor);
   font-family: Libre Baskerville;
 }
 
 a{
   text-decoration: none;
-  color: var(--BackgroundColor);
+  color: var(--HighlightColor);
   transition: all 0.15s;
 }
 a:hover{
@@ -30,9 +30,9 @@ p{
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --BackgroundColor : #F6FCDF ;
+    --HighlightColor : #F6FCDF ;
     --TitleColor : #80993c ;
     --ContentColor : #4f8131 ;
-    --HighlightColor : #1A1A19 ;
+    --BackgroundColor : #1A1A19 ;
   }
 }

@@ -4,8 +4,8 @@
 }
 
 .infoBarService{
-    background-color: var(--BackgroundColor);
-    color: var(--HighlightColor);
+    background-color: var(--HighlightColor);
+    color: var(--BackgroundColor);
     padding: 5px;
     border-radius: 10px;
     margin-bottom: 20px;
