@@ -6,9 +6,9 @@ const serum_presets = {
     shortDesc: (
         <div>
             <p>
-                Unlock the full potential of Serum
+                unlock the full potential of serum
                 with personalized lessons by arcathrax.
-                Learn sound design and
+                learn sound design and
                 production techniques to take your music to the next level.
             </p>
         </div>
@@ -16,17 +16,17 @@ const serum_presets = {
     description: (
         <div>
             <p>
-                Master the art of sound design with Serum
+                master the art of sound design with serum
                 through one-on-one lessons tailored to your needs.
-                Whether you're a beginner looking to learn the basics
+                whether you're a beginner looking to learn the basics
                 or an advanced producer aiming to refine your skills,
-                I’ll guide you through creating custom sounds,
-                understanding Serum’s features,
+                i’ll guide you through creating custom sounds,
+                understanding serum’s features,
                 and applying practical techniques for professional results.
-                Each session is hands-on,
+                each session is hands-on,
                 ensuring you leave with both knowledge and
                 new sounds for your productions.
-                Let’s make your music stand out!
+                let’s make your music stand out!
             </p>
 
             <p>

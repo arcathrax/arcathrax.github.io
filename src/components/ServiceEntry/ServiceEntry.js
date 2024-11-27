@@ -26,8 +26,10 @@ function ServiceEntry({ category, title, shortDesc, description }) {
                 {showDescription && <p className="description">{description}</p>}
             </div>
             {showDescription && (
-                <div className="hideButton" onClick={hideFullDescription}>
-                    Hide description
+                <div className="hideButtonDiv">
+                    <div className="hideButton" onClick={hideFullDescription}>
+                        hide description
+                    </div>
                 </div>
             )}
         </div>

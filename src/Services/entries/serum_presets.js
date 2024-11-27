@@ -6,9 +6,9 @@ const serum_presets = {
     shortDesc: (
         <div>
             <p>
-                Elevate your tracks with cutting-edge Serum presets,
+                elevate your tracks with cutting-edge serum presets,
                 meticulously crafted by arcathrax.
-                Perfect for producers seeking fresh,
+                perfect for producers seeking fresh,
                 high-quality sounds to inspire creativity across any genre.
             </p>
         </div>
@@ -16,16 +16,16 @@ const serum_presets = {
     description: (
         <div>
             <p>
-                My Serum preset collection offers
+                my Serum preset collection offers
                 an array of meticulously designed sounds,
                 from lush pads and rich basses to
                 intricate leads and dynamic effects.
-                Each preset is optimized for maximum usability
+                each preset is optimized for maximum usability
                 and designed to provide a professional touch to your productions.
-                Whether you're a beginner or an advanced producer,
+                whether you're a beginner or an advanced producer,
                 these presets are perfect for adding depth,
                 energy, and uniqueness to your music.
-                Dive in and transform your sound today!
+                dive in and transform your sound today!
             </p>
 
             <p>
