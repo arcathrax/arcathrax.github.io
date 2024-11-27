@@ -13,7 +13,7 @@ function AboutMe()
             </h1>
             <div>
                 <p>
-                    under construction
+                    sound designer and artist
                 </p>
             </div>
         </div>
