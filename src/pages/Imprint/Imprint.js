@@ -1,5 +1,6 @@
 import "./Imprint.css";
 import React, { useEffect } from "react";
+import {Link} from "react-router-dom";
 
 function Imprint()
 {
@@ -12,6 +13,9 @@ function Imprint()
                 imprint
             </h1>
             <div>
+                <Link to={"mailto:arcathrax@proton.me"}>
+                    arcathrax@proton.me
+                </Link>
                 <p>
                     Weidenweg 2
                 </p>

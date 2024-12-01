@@ -11,7 +11,7 @@ function Navbar() {
             {/* Title */}
             <Link to="/">
                 <h1>
-                    Arcathrax
+                    arcathrax
                 </h1>
             </Link>
 

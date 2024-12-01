@@ -21,7 +21,6 @@ function Home()
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy" title={"spotify iframe"}>
             </iframe>
-
             <h2>
                 dates
             </h2>
@@ -29,18 +28,6 @@ function Home()
                   target="_blank">
                 30.11.2024 - Technoabteil
             </Link>
-
-            <h2>
-                bookings
-            </h2>
-            <div className="contactLinks">
-                <p>
-                    email at
-                </p>
-                <Link to={"mailto:arcathrax@proton.me"}>
-                    arcathrax@proton.me
-                </Link>
-            </div>
         </div>
     )
 }
