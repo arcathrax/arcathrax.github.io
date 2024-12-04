@@ -21,13 +21,22 @@ function Home()
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy" title={"spotify iframe"}>
             </iframe>
+
             <h2>
                 dates
             </h2>
-            <Link to="https://www.ticketcorner.ch/artist/maex-zuerich-parties/technoabteil-x-maex-3747510/"
+            <Link to="https://www.instagram.com/p/DA5n8pwipjW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==/"
                   target="_blank">
                 30.11.2024 - Technoabteil
             </Link>
+
+            <h2>
+                bookings
+            </h2>
+            <Link to="mailto:arcathrax@proton.me">
+                arcathrax@proton.me
+            </Link>
+
         </div>
     )
 }

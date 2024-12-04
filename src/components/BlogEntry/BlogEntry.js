@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./ServiceEntry.css";
+import "./BlogEntry.css";
 
-function ServiceEntry({ category, title, shortDesc, description }) {
+function BlogEntry({ category, title, shortDesc, description }) {
     const [showDescription, setShowDescription] = useState(false);
 
     const showFullDescription = (event) => {
@@ -36,4 +36,4 @@ function ServiceEntry({ category, title, shortDesc, description }) {
     );
 }
 
-export default ServiceEntry;
+export default BlogEntry;

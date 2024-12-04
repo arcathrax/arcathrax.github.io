@@ -2,7 +2,7 @@ import './App.css';
 import MainLayout from "./layouts/MainLayout";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import AboutMe from "./pages/AboutMe/AboutMe";
-import Services from "./pages/Services/Services";
+import Blogs from "./pages/Blogs/Blogs";
 import Home from "./pages/Home/Home";
 import Imprint from "./pages/Imprint/Imprint";
 
@@ -14,7 +14,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/about-me" element={<AboutMe/>}/>
-                        <Route path="/services" element={<Services/>}/>
+                        <Route path="/blog" element={<Blogs/>}/>
                         <Route path="/imprint" element={<Imprint/>}/>
                     </Routes>
                 </MainLayout>
