@@ -1,23 +1,18 @@
 import './App.css';
-import MainLayout from "./layouts/MainLayout";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import AboutMe from "./pages/AboutMe/AboutMe";
-import Blogs from "./pages/Blogs/Blogs";
-import Home from "./pages/Home/Home";
-import Imprint from "./pages/Imprint/Imprint";
+import Index from "./pages/index";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import AboutMe from "./pages/aboutme/AboutMe";
+import Downloads from "./pages/downloads/Downloads";
 
 function App() {
     return (
         <Router>
             <div>
-                <MainLayout>
-                    <Routes>
-                        <Route path="/" element={<Home/>}/>
-                        <Route path="/about-me" element={<AboutMe/>}/>
-                        <Route path="/blog" element={<Blogs/>}/>
-                        <Route path="/imprint" element={<Imprint/>}/>
-                    </Routes>
-                </MainLayout>
+                <Routes>
+                    <Route path="/" element={<Index />} />
+                    <Route path="/about-me" element={<AboutMe />} />
+                    <Route path="/downloads" element={<Downloads />} />
+                </Routes>
             </div>
         </Router>
     );

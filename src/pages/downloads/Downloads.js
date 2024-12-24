@@ -1,16 +1,16 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import "./AboutMe.css";
+import "./Downloads.css";
 
 
-function AboutMe(){
+function downloads(){
     return(
         <div>
             <Navbar/>
 
             <div className={"aboutmeMainDiv"}>
                 <p>
-                    about me
+                    downloads
                 </p>
             </div>
 
@@ -19,4 +19,4 @@ function AboutMe(){
     );
 }
 
-export default  AboutMe;
+export default  downloads;

@@ -1,0 +1,10 @@
+.indexMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.indexMainDiv>*{
+    text-align: center;
+}
