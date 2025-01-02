@@ -4,8 +4,10 @@ import "./Footer.css";
 function Footer()
 {
    return(
-       <div>
-           
+       <div className={"footerDiv"}>
+           <a href={"mailto:arcathrax@proton.me"}>
+               arcathrax@proton.me
+           </a>
        </div>
     );
 }

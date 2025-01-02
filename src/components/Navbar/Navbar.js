@@ -18,11 +18,6 @@ function Navbar() {
                         downloads
                     </h3>
                 </Link>
-                <Link to={"/about-me"}>
-                    <h3>
-                        aboutme
-                    </h3>
-                </Link>
             </div>
         </div>
     );
