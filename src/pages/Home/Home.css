@@ -1,5 +1,4 @@
-.homeDesc{
-}
-
-.contactLinks{
+.datesDiv {
+    display: flex;
+    flex-direction: column;
 }
