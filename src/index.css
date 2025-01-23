@@ -17,7 +17,6 @@ a {
     text-decoration: none;
     color: var(--HighlightColor);
     transition: all 0.15s;
-    margin-top: 5px;
 }
 a:hover {
     color: var(--TitleColor);

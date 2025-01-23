@@ -24,6 +24,18 @@ function Footer() {
 
         <Link
           className="footerLink"
+          to={"https://www.tiktok.com/@arcathrax"}
+          target="blank"
+        >
+          <img
+            className="footerIcon"
+            src={require("./Icons/tik-tok.png")}
+            alt="TikTok Link"
+          />
+        </Link>
+
+        <Link
+          className="footerLink"
           to={
             "https://open.spotify.com/intl-de/artist/0XnWXq7lfhJqrmwtmxUkcm?si=qJXqjLL2Q6aSkTDRp9qaLg"
           }
@@ -45,18 +57,6 @@ function Footer() {
             className="footerIcon"
             src={require("./Icons/apple-music.png")}
             alt="Apple Music Link"
-          />
-        </Link>
-
-        <Link
-          className="footerLink"
-          to={"https://www.tiktok.com/@arcathrax"}
-          target="blank"
-        >
-          <img
-            className="footerIcon"
-            src={require("./Icons/tik-tok.png")}
-            alt="TikTok Link"
           />
         </Link>
 

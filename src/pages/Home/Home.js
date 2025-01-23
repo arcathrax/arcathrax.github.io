@@ -23,12 +23,11 @@ function Home() {
 
       <h2>dates</h2>
       <div>
-        {" "}
         <Link
           to="https://www.instagram.com/p/DEcxWilNYcw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           target={"_blank"}
         >
-          10.1.2025 - gradient va-02 release party
+          10.1.2025 - gradient collective, umbo
         </Link>
       </div>
       <div>
@@ -36,7 +35,7 @@ function Home() {
           to="https://www.instagram.com/p/DA5n8pwipjW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==/"
           target="_blank"
         >
-          30.11.2024 - technoabteil - the weekender
+          30.11.2024 - technoabteil, mäx
         </Link>
       </div>
 
