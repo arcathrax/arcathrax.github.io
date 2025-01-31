@@ -22,6 +22,9 @@ function Navbar() {
         <Link className={getActiveClass("/downloads")} to="/downloads">
           downloads
         </Link>
+        <Link className={getActiveClass("/prayers")} to="/prayers">
+          prayers
+        </Link>
       </div>
     </div>
   );
