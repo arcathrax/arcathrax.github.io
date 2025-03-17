@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Downloads.css";
+import "./Products.css";
 
-function Downloads() {
+function Products() {
   return (
     <div>
       <table className="downloadsTable">
@@ -26,4 +26,4 @@ function Downloads() {
   );
 }
 
-export default Downloads;
+export default Products;

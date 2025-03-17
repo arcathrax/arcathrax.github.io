@@ -3,7 +3,7 @@ import MainLayout from "./layouts/MainLayout";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Imprint from "./pages/Imprint/Imprint";
-import Downloads from "./pages/Downloads/Downloads";
+import Products from "./pages/Products/Products";
 import Prayers from "./pages/Prayers/Prayers";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <MainLayout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/downloads" element={<Downloads />} />
+            <Route path="/products" element={<Products />} />
             <Route path="/imprint" element={<Imprint />} />
             <Route path="/prayers" element={<Prayers />} />
           </Routes>

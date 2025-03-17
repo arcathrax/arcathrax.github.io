@@ -19,8 +19,8 @@ function Navbar() {
         <Link className={getActiveClass("/")} to="/">
           home
         </Link>
-        <Link className={getActiveClass("/downloads")} to="/downloads">
-          downloads
+        <Link className={getActiveClass("/products")} to="/products">
+          products
         </Link>
         <Link className={getActiveClass("/prayers")} to="/prayers">
           prayers
