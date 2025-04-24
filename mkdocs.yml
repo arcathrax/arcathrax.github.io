@@ -3,8 +3,6 @@ site_name: arcathrax
 nav:
   - home: index.md
   - projects: projects.md
-  - blog:
-    - test: blog/test.md
   - contact: contact.md
 
 theme:
